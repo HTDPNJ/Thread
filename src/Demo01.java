@@ -1,5 +1,6 @@
 public class Demo01
 {
+    //修改测试
     public static void main(String[] args)
     {
         Study s=new Study();
@@ -12,6 +13,7 @@ public class Demo01
         }
     }
 }
+//
 class Study implements Runnable{
     //1、线程类中定义线程体使用的标识
     private  boolean flag=true;
